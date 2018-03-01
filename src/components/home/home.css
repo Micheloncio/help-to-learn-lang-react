@@ -1,0 +1,37 @@
+.Menu{
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 0px 50px 50px;
+	box-shadow: 7px 7px 15px grey;
+	transition: transform 0.25s linear;
+}
+#MenuGame{
+	display: block;
+	background: linear-gradient(135deg,#14DA7D,#34FF1F,#07924D);
+	color: #34FF1F;	
+}
+
+.buttonMenu{
+	width: 280px;
+	height: 60px;
+	margin: auto;
+	margin-top: 20px;
+	border: 2px solid white;
+	font-size: 20px;
+	background-color: white;
+	opacity:0.7;
+	border-radius: 0px 50px 30px;
+}
+.buttonMenu:first-child{
+	margin-top: 40px;
+}
+
+.buttonMenu:hover{
+	background-color: inherit;
+	color: white;
+	cursor: pointer;
+	opacity:1;
+}
